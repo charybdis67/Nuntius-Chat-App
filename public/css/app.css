@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #4c4c4c;
+    width: 26.7%;
+    margin: 0 auto;
+}
+
+input, button{
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+input{
+    display: block;
+    background-color: #EEE;
+    padding: 6px 8px;
+    font-size: 12px;
+    color: #888;
+    height: 30px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.app{
+    border: 1px;
+    border-radius: 10%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: white;
+    width: 400px;
+}
+
+header{
+    height: 50px;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 32px;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom, #8C38FF);
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    box-shadow: 0px 6px 12px rgba(0,0,0,0.15);
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#username{
+    transition: 0.4s;
+    text-align: left;
+}
+
+#username:focus{
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+#messages{
+    flex: 1 1 0%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 16px;
+    height: 500px;
+}
+
+.message{
+    border: 1px;
+    border-radius: 10%;
+    display: block;
+    width: 100%;
+    border-radius: 99px;
+    background-color: #fff;
+    padding: 8px 16px;
+    box-shadow: 0px 6px 12px rgba(0,0,0,0.15);
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.message strong{
+    color: #8C38FF;
+    font-weight: 600;
+}
+
+#message_form{
+    display: flex;
+}
+
+#message_send{
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: rgb(8, 8, 8);
+    padding: 4px 8px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.messaging{
+
+    background-color: #6f85e8;
+    height: 500px;
+}
+
+.message-input{
+
+    width: 100%;
+}
+
