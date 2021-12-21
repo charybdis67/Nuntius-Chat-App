@@ -1,4 +1,4 @@
-#Nuntius Real Time Chatting Application
+#Nuntius Real Time Chatting Application#
 
 ![alt-text](https://github.com/charybdis67/Nuntius-Chat-App/blob/main/public/assets/logo.jpg)
 
