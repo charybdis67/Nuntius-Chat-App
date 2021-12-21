@@ -12,3 +12,5 @@ After these and other needed installations, please run in terminal inside applic
 php artisan serve
 
 For testing files, under Tests folder there are unit and example tests created. Also, in Laravel structure, inside Resources and Views, controllers are dealt with Handlers so there are code tests insides. 
+
+After running code, to be able to see chatting two person, two different running browsers needed. When one side is texts to other, in other browser chat will show the message.
